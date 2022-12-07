@@ -15,7 +15,7 @@ const ChatRoom = () => {
   const [socket, setSocket] = useState();
 
   useEffect(() => {
-    const socket = io("https://back-qe8w.onrender.com");
+    const socket = io("https://backend-wv9b.onrender.com");
     setSocket(socket);
 
     socket.on("connect", () => {
